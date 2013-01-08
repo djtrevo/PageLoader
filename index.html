@@ -1,0 +1,25 @@
+<html>
+<head>
+	<title> TrEVo Page Loader - Demo - jQuery Plugin </title>
+	<meta name="Author" content="Marco Trevisani">
+	<meta name="Keywords" content="TrEvo, page loader, jquery, plugin">
+	<meta name="Description" content="Questo favoloso plugin consente di mostrare un bel loader centrato che sparirà al termine del caricamento della pagina.">
+	<link href="css/trevo_page_loader.css" rel="stylesheet" type="text/css" />
+	<script src="include/jquery-1.8.3.min.js" type="text/javascript"></script>
+	<script src="include/jquery.trevo.page.loader.js" type="text/javascript"></script>
+</head>
+
+<body style="text-align: center;">
+<h1>TrEVo Page Loader - Demo - jQuery Plugin</h1>
+<img src="http://www.amarcordbologna.it/wp-content/uploads/2011/01/Bologna-Due-Torri.jpg" alt="Bologna <3" width="800" style="margin-top:20px;" /> <br />
+<img src="http://www.arte.it/foto/orig/22/4107-1201_-_Bologna_-_Piazza_Maggiore_-_Foto_Giovanni_Dall_27Orto_2C_9-Feb-2008.jpg" alt="Bologna <3" width="800" style="margin-top:20px;" />
+
+<script type="text/javascript">
+//<![CDATA[
+$(document).ready(function () {
+	jQuery(window).pageLoader();
+});
+//]]>
+</script>
+</body>
+</html>
