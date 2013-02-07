@@ -1,6 +1,6 @@
 /*!
  * jQuery TrEVo Page Loader v1.0
- * https://github.com/djtrevo/HeightMaximizer
+ * https://github.com/djtrevo/PageLoader
  *
  * Copyright 2012, Marco Trevisani
  * * * * * * * * * * * * * * * * * * * * * *
@@ -28,7 +28,7 @@
 
             return this.each(function () {
 
-                $("body").append("<div id=\"" + options.cssID + "\"></div>")
+                $("body").append("<div id=\"" + options.cssID + "\"></div>");
 
                 if (options.onLoad) {
                     $(this).load(function () {
