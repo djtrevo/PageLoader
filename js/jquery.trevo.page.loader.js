@@ -46,7 +46,7 @@
         hide: function () {
             var options = $.extend(defaults, options);
             jQuery("#" + options.cssID + "").fadeOut(options.fadeOut);
-        },
+        }
     };
 
     $.fn.pageLoader = function (methodOrOptions) {
